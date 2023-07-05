@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  background-color: rgb(117, 11, 11);
+  height: 100vh;
+}
+#message{
+  height: 10vw;
+  width: 30vw;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 2vh;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+}
+#title{
+  background-color: rgb(31, 31, 31);
+  color: gold;
+  height: 5vw;
+  padding-top: 2vw;
+  font-size: 2vw;
+  font-weight: 600;
+}
+#txt{
+  background-color: rgb(31, 31, 31);
+  color: gold;
+  height: 3vw;
+  width: 20vw;
+  padding-top: 1vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 10vh;
+  border-radius: 10px;
+}
+#check{
+  background-color: rgb(31, 31, 31);
+  color: gold;
+  height: 3vw;
+  width: 10vw;
+  font-size: 1.2vw;
+  font-weight: 400;
+  margin: auto;
+  border-radius: 10px;
+}
+.hidden{
+  display: none;
+}
+.show{
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: auto;
+  margin-top: 2vw;
+  text-align: center;
+  width: fit-content;
+  padding: 1.5vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  background-color: rgb(15,15,15);
+  border: solid 0.3vw rgb(97, 97, 97);
+  color: gold;
+  font-size: 2vw;
+  border-radius: 1vw;
+  font-weight: 600;
+}
+#footer{
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(15,15,15);
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 2vh;
+  color: rgb(121, 120, 120);
+}
